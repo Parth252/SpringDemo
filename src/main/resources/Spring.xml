@@ -3,5 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="doctor" class="com.ParthSpringDemo.Doctor"></bean>
+    <bean id="doctor" class="com.ParthSpringDemo.Doctor">
+        <property name="name" value="parth"></property>
+        <property name="nurse" ref="Nurse"></property>
+    </bean>
+    <bean id="Nurse" class="com.ParthSpringDemo.Nurse"></bean>
 </beans>

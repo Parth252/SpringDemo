@@ -8,6 +8,7 @@ public class Main {
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Spring.xml");
 
-        Doctor doctor = (Doctor) applicationContext.getBean("doctor");
+        Doctor doctor = applicationContext.getBean(Doctor.class);
+        System.out.println(doctor.name);
     }
 }
