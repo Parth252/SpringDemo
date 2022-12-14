@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e312c86f-6a1e-4b26-944c-c9b1a553fdb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Nurse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e312c86f-6a1e-4b26-944c-c9b1a553fdb8" name="Changes" comment="XmlConfigDone">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/BeanConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ParthSpringDemo/Nurse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "57d10741e2debdfe2ab43e291979486e"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,8 +55,17 @@
       <updated>1668136329349</updated>
       <workItem from="1668136330519" duration="53000" />
       <workItem from="1668137028459" duration="1637000" />
-      <workItem from="1669962513323" duration="1723000" />
+      <workItem from="1669962513323" duration="1845000" />
+      <workItem from="1669969124025" duration="1607000" />
     </task>
+    <task id="LOCAL-00001" summary="XmlConfigDone">
+      <created>1669964347611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669964347611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="XmlConfigDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="XmlConfigDone" />
   </component>
 </project>

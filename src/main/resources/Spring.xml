@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="doctor" class="com.ParthSpringDemo.Doctor">
-        <property name="name" value="parth"></property>
-        <property name="nurse" ref="Nurse"></property>
-    </bean>
-    <bean id="Nurse" class="com.ParthSpringDemo.Nurse"></bean>
+<!--    <bean id="doctor" class="com.ParthSpringDemo.Doctor">-->
+<!--        <constructor-arg value="parth" ></constructor-arg>-->
+<!--        <constructor-arg ref="nurse"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="nurse" class="com.ParthSpringDemo.Nurse"></bean>-->
+    <context:component-scan base-package="com.ParthSpringDemo"></context:component-scan>
 </beans>

@@ -1,18 +1,14 @@
 package com.ParthSpringDemo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Doctor {
     String name;
 
-    public void setNurse(Nurse nurse) {
-        this.nurse = nurse;
-    }
+//    public Doctor(String name, Nurse nurse) {
+//        this.name = name;
+//    }
 
-    Nurse nurse;
-    public Doctor() {
-        System.out.println("doctor object created");
-    }
 
-    public void setName(String name) {
-    this.name = name;
-    }
 }
